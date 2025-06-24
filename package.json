@@ -1,0 +1,55 @@
+{
+  "name": "react-modal-component-anthonyhaye",
+  "version": "2.0.0",
+  "description": "Composant React de fenêtre modale réutilisable",
+  "keywords": [
+    "react",
+    "modal",
+    "popup",
+    "dialog",
+    "component",
+    "react-modal",
+    "reusable",
+    "ui",
+    "accessible"
+  ],
+  "homepage": "https://github.com/AnthonyHaye/React-Modal-Component#readme",
+  "bugs": {
+    "url": "https://github.com/AnthonyHaye/React-Modal-Component/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyHaye/React-Modal-Component.git"
+  },
+  "license": "ISC",
+  "author": "Anthony Haye",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
+    "test": "echo \"Pas de tests pour l’instant\""
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.44.0",
+    "rollup-plugin-copy": "^3.5.0"
+  }
+}
