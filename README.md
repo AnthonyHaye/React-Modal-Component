@@ -11,7 +11,6 @@ Composant React réutilisable de **fenêtre modale** avec support des **props dy
 
 - ✅ Utilisation ultra simple
 - 💬 Support du contenu via `title`, `message` ou `children`
-- 🎨 Personnalisable via SCSS (`main.scss`)
 - 🔒 Accessibilité de base (overlay, focus trap possible)
 - 🧩 Peut être utilisé dans tout projet React (Vite, CRA, Next...)
 
@@ -31,7 +30,6 @@ npm link
 
 ```bash
 import { Modal } from "react-modal-component";
-import "react-modal-component/dist/styles/main.scss";
 ```
 
 ## 🧪 Exemple d'utilisation
@@ -78,10 +76,10 @@ function App() {
 > ℹ️ Si `children` est défini, il prend le dessus sur `message`.
 
 ## 🎨 Styles
-Vous pouvez adapter le fichier main.scss à vos couleurs et styles. N'oubliez pas de l'importer :
-```bash
-import 'react-modal-component/dist/styles/main.scss';
-```
+
++ // Ajoutez votre propre CSS en fonction des classes utilisées : 
++ // .modal-backdrop, .modal, .modal-title, etc.
+
 ## 🔧 Développement local
 
 Si vous développez ce composant en local dans un projet de test :
