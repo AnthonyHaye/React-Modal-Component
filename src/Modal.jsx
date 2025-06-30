@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from "prop-types";
 
 export default function Modal({ title, message, onClose, children }) {
-  console.log("Modal chargé !");
   return (
     <div className="modal-backdrop">
       <div className="modal">
